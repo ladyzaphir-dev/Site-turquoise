@@ -352,6 +352,48 @@ body {
     color: var(--text-muted);
     font-style: italic;
 }
+/* COLLABORATIONS – Style turquoise & noir */
+
+#collaborations .section-inner {
+    background: linear-gradient(
+        135deg,
+        rgba(5, 8, 13, 0.96),
+        rgba(7, 11, 18, 0.96)
+    );
+    border: 1px solid rgba(11, 177, 176, 0.35);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.75);
+}
+
+.collab-list {
+    margin-top: 1.4rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+.collab-list li {
+    margin-bottom: 0.9rem;
+}
+
+.collab-list a {
+    color: var(--turquoise-light);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+    transition: 0.3s ease;
+}
+
+.collab-list a:hover {
+    color: var(--gold-soft);
+    text-shadow: 0 0 12px rgba(11, 177, 176, 0.5);
+}
+
+.collab-note {
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
 
 /* FORMULAIRE DE CONTACT */
 
