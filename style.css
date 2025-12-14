@@ -541,12 +541,10 @@ textarea:focus {
 
 .lz-gallery-item img {
   width: 100%;
-  aspect-ratio: 1 / 1;   /* ⬜ carré parfait */
-  object-fit: cover;     /* recadrage propre */
+  height: 100%;          /* 🔑 MANQUAIT ICI */
+  object-fit: cover;
   display: block;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0;      /* évite double arrondi */
 }
 
 .lz-gallery-item img:hover {
