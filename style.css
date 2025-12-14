@@ -587,3 +587,4 @@ textarea:focus {
   background: linear-gradient(135deg, #6ef5ff, #a7faff);
   box-shadow: 0 12px 28px rgba(0, 80, 90, 0.45);
 }
+@media (hover: none){ .lz-overlay{ opacity: 0.35; } }
