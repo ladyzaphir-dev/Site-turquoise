@@ -558,10 +558,6 @@ textarea:focus {
     grid-template-columns: repeat(4, 1fr);
   }
 
-.lz-gallery-item {
-  background: red;
-}
-
 /* --- Bouton turquoise luxueux (Lady Zaphir) --- */
 .btn-turquoise {
   display: inline-block;
